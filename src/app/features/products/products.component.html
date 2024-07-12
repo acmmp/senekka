@@ -1,0 +1,87 @@
+  <div class="product-list">
+        <div class="product-item">
+            <img src="assets/img/enantato.jpg" alt="Producto 1">
+            <h2>Producto 1</h2>
+            <p class="price">49.99€ </p>
+        </div>
+        <div class="product-item">
+            <img src="assets/img/producto2.jpg" alt="Producto 2">
+            <h2>Producto 2</h2>
+            <p class="price">49.99€</p>
+        </div>
+        <div class="product-item">
+            <img src="assets/img/producto3.jpg" alt="Producto 3">
+            <h2>Producto 3</h2>
+            <p class="price">49.99€</p>
+        </div>
+        <!-- Agrega más productos según sea necesario -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.2s;
+}
+
+.product-item:hover {
+    transform: translateY(-10px);
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-item h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product-item .price {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+
+</style>
